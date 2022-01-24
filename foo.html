@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML and Forms</title>
+</head>
+<body>
+    <h1>HTML and Forms</h1>
+
+    <form action="https://www.cs.hmc.edu/~rhodes/cgi-bin/query.py" method="post">
+        <p>Color</p>
+        <label for="red">Red</label>
+        <input type="radio" id="red" name="color" value="red" checked>
+        <label for="blue">Blue</label>
+        <input type="radio" id="blue" name="color" value="blue">
+        <label for="yellow">Yellow</label>
+        <input type="radio" id="yellow" name="color" value="yellow">
+
+        <p>Direction</p>
+        <label for="north">North</label>
+        <input type="radio" id="north" name="direction" value="north" checked>
+        <label for="south">South</label>
+        <input type="radio" id="south" name="direction" value="south">
+        <label for="east">East</label>
+        <input type="radio" id="east" name="direction" value="east">
+        <label for="west">West</label>
+        <input type="radio" id="west" name="direction" value="west">
+
+        <p>Checkboxes</p>
+        <label for="yes">Yes</label>
+        <input type="checkbox" id="yes" name="yes">
+        <label for="no">No</label>
+        <input type="checkbox" id="no" name="no">
+        <label for="maybe">Maybe</label>
+        <input type="checkbox" id="maybe" name="maybe">
+
+        <p>Name</p>
+        <input type="text" name="name">
+
+        <p>Age</p>
+        <input type="number" name="age">
+
+        <p>Date</p>
+        <input type="date" name="date">
+
+        <p></p>
+        <input type="submit">
+    </form>
+</body>
+</html>
